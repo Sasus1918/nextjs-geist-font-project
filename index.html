@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduMuralAI - Plataforma Educativa Avanzada</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Mobile Navigation Toggle -->
+    <button class="mobile-nav-toggle" id="mobileNavToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+    <!-- Sidebar -->
+    <nav class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <h2>EduMuralAI</h2>
+            <p class="sidebar-subtitle">Aprendizaje Inteligente</p>
+        </div>
+        
+        <ul class="sidebar-nav">
+            <li><a href="#" data-section="inicio" class="nav-link active">
+                <i class="fas fa-home"></i><span>Inicio</span>
+            </a></li>
+            <li><a href="#" data-section="calendario" class="nav-link">
+                <i class="fas fa-calendar-alt"></i><span>Calendario</span>
+            </a></li>
+            <li><a href="#" data-section="progreso" class="nav-link">
+                <i class="fas fa-chart-line"></i><span>Progreso</span>
+            </a></li>
+            <li><a href="#" data-section="tareas" class="nav-link">
+                <i class="fas fa-tasks"></i><span>Tareas</span>
+            </a></li>
+            <li><a href="#" data-section="ajustes" class="nav-link">
+                <i class="fas fa-cog"></i><span>Ajustes</span>
+            </a></li>
+            <li><a href="#" data-section="neurolinguistica" class="nav-link">
+                <i class="fas fa-brain"></i><span>Neurolingüística</span>
+            </a></li>
+        </ul>
+
+        <div class="sidebar-section">
+            <h4>Otras Plataformas</h4>
+            <ul class="platform-links">
+                <li><a href="#" class="platform-link" style="--color: #FF6B6B">
+                    <i class="fas fa-microphone"></i><span>PhoneticIA</span>
+                </a></li>
+                <li><a href="#" class="platform-link" style="--color: #4ECDC4">
+                    <i class="fas fa-edit"></i><span>GaboAI</span>
+                </a></li>
+                <li><a href="#" class="platform-link" style="--color: #45B7D1">
+                    <i class="fas fa-map-marker-alt"></i><span>TuristIA</span>
+                </a></li>
+                <li><a href="#" class="platform-link" style="--color: #96CEB4">
+                    <i class="fas fa-robot"></i><span>RoboTIC</span>
+                </a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Inicio Section -->
+        <section id="inicio" class="content-section active">
+            <div class="welcome-header">
+                <h1>Bienvenido a EduMuralAI</h1>
+                <p class="welcome-subtitle">Plataforma educativa avanzada que utiliza inteligencia artificial y principios de neurolingüística para optimizar tu aprendizaje</p>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="contact-info">
+                <h3>Información de Contacto</h3>
+                <div class="contact-grid">
+                    <div class="contact-item">
+                        <i class="fas fa-user"></i>
+                        <span>Desarrollador: Francois Tromp</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>Técnico: Sasus1810@hotmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span>Educativo: Francoisltrompb@liceofesan.edu.co</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-school"></i>
+                        <a href="https://www.liceofesan.edu.co/" target="_blank">Liceo Fesan</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="quick-access">
+                <h3>Acceso Rápido</h3>
+                <div class="quick-access-grid">
+                    <div class="quick-card" data-section="calendario">
+                        <i class="fas fa-calendar-alt"></i>
+                        <h4>Calendario</h4>
+                        <p>Revisa tus eventos y exámenes</p>
+                    </div>
+                    <div class="quick-card" data-section="progreso">
+                        <i class="fas fa-chart-line"></i>
+                        <h4>Progreso</h4>
+                        <p>Monitorea tu avance</p>
+                    </div>
+                    <div class="quick-card" data-section="tareas">
+                        <i class="fas fa-tasks"></i>
+                        <h4>Tareas</h4>
+                        <p>Gestiona tus actividades</p>
+                    </div>
+                    <div class="quick-card" data-section="neurolinguistica">
+                        <i class="fas fa-brain"></i>
+                        <h4>Neurolingüística</h4>
+                        <p>Optimiza tu aprendizaje</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="platforms-section">
+                <h3>Plataformas Hermanas</h3>
+                <div class="platforms-grid">
+                    <div class="platform-card" style="--color: #FF6B6B">
+                        <i class="fas fa-microphone"></i>
+                        <h4>PhoneticIA</h4>
+                        <p>Pronunciación con IA</p>
+                    </div>
+                    <div class="platform-card" style="--color: #4ECDC4">
+                        <i class="fas fa-edit"></i>
+                        <h4>GaboAI</h4>
+                        <p>Asistente de escritura</p>
+                    </div>
+                    <div class="platform-card" style="--color: #45B7D1">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h4>TuristIA</h4>
+                        <p>Turismo virtual colombiano</p>
+                    </div>
+                    <div class="platform-card" style="--color: #96CEB4">
+                        <i class="fas fa-robot"></i>
+                        <h4>RoboTIC</h4>
+                        <p>Robótica educativa</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Calendario Section -->
+        <section id="calendario" class="content-section">
+            <h2>Calendario Académico</h2>
+            <div class="calendar-container">
+                <div class="calendar-header">
+                    <button class="calendar-nav" id="prevMonth"><i class="fas fa-chevron-left"></i></button>
+                    <h3 id="currentMonth">Junio 2025</h3>
+                    <button class="calendar-nav" id="nextMonth"><i class="fas fa-chevron-right"></i></button>
+                </div>
+                <div class="calendar-grid" id="calendarGrid">
+                    <!-- Calendar will be generated by JavaScript -->
+                </div>
+                <div class="calendar-events">
+                    <h4>Eventos Próximos</h4>
+                    <div class="event-list" id="eventList">
+                        <div class="event-item exam">
+                            <span class="event-date">Jun 15</span>
+                            <span class="event-title">Examen de Ciencias</span>
+                        </div>
+                        <div class="event-item task">
+                            <span class="event-date">Jun 18</span>
+                            <span class="event-title">Entrega proyecto</span>
+                        </div>
+                        <div class="event-item class">
+                            <span class="event-date">Jun 20</span>
+                            <span class="event-title">Sesión de neurolingüística</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Progreso Section -->
+        <section id="progreso" class="content-section">
+            <h2>Mi Progreso</h2>
+            <div class="progress-container">
+                <div class="progress-overview">
+                    <div class="progress-circle">
+                        <svg class="progress-ring" width="150" height="150">
+                            <circle class="progress-ring-bg" cx="75" cy="75" r="60"></circle>
+                            <circle class="progress-ring-fill" cx="75" cy="75" r="60" style="--progress: 78"></circle>
+                        </svg>
+                        <div class="progress-text">
+                            <span class="progress-number">78%</span>
+                            <span class="progress-label">Progreso General</span>
+                        </div>
+                    </div>
+                    <div class="progress-stats">
+                        <div class="stat-item">
+                            <i class="fas fa-tasks"></i>
+                            <span class="stat-number">5</span>
+                            <span class="stat-label">Tareas Pendientes</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-bell"></i>
+                            <span class="stat-number">3</span>
+                            <span class="stat-label">Notificaciones</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="progress-subjects">
+                    <h4>Progreso por Materia</h4>
+                    <div class="subject-progress">
+                        <div class="subject-item">
+                            <span class="subject-name">Matemáticas</span>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 85%"></div>
+                            </div>
+                            <span class="subject-percentage">85%</span>
+                        </div>
+                        <div class="subject-item">
+                            <span class="subject-name">Ciencias</span>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 72%"></div>
+                            </div>
+                            <span class="subject-percentage">72%</span>
+                        </div>
+                        <div class="subject-item">
+                            <span class="subject-name">Lenguaje</span>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 90%"></div>
+                            </div>
+                            <span class="subject-percentage">90%</span>
+                        </div>
+                        <div class="subject-item">
+                            <span class="subject-name">Historia</span>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 65%"></div>
+                            </div>
+                            <span class="subject-percentage">65%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tareas Section -->
+        <section id="tareas" class="content-section">
+            <h2>Mis Tareas</h2>
+            <div class="tasks-container">
+                <div class="tasks-header">
+                    <div class="task-filters">
+                        <button class="filter-btn active" data-filter="all">Todas</button>
+                        <button class="filter-btn" data-filter="pending">Pendientes</button>
+                        <button class="filter-btn" data-filter="completed">Completadas</button>
+                    </div>
+                    <button class="btn btn--primary" id="addTaskBtn">
+                        <i class="fas fa-plus"></i> Nueva Tarea
+                    </button>
+                </div>
+                
+                <div class="tasks-list">
+                    <div class="task-item pending high" data-id="1">
+                        <div class="task-checkbox">
+                            <input type="checkbox" id="task1">
+                            <label for="task1"></label>
+                        </div>
+                        <div class="task-content">
+                            <h4 class="task-title">Completar módulo de Matemáticas</h4>
+                            <p class="task-date">Fecha límite: 15 de Junio, 2025</p>
+                        </div>
+                        <span class="task-priority high">Alta</span>
+                    </div>
+                    
+                    <div class="task-item pending medium" data-id="2">
+                        <div class="task-checkbox">
+                            <input type="checkbox" id="task2">
+                            <label for="task2"></label>
+                        </div>
+                        <div class="task-content">
+                            <h4 class="task-title">Revisar técnicas de neurolingüística</h4>
+                            <p class="task-date">Fecha límite: 14 de Junio, 2025</p>
+                        </div>
+                        <span class="task-priority medium">Media</span>
+                    </div>
+                    
+                    <div class="task-item pending low" data-id="3">
+                        <div class="task-checkbox">
+                            <input type="checkbox" id="task3">
+                            <label for="task3"></label>
+                        </div>
+                        <div class="task-content">
+                            <h4 class="task-title">Práctica de memoria espacial</h4>
+                            <p class="task-date">Fecha límite: 16 de Junio, 2025</p>
+                        </div>
+                        <span class="task-priority low">Baja</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Ajustes Section -->
+        <section id="ajustes" class="content-section">
+            <h2>Configuración</h2>
+            <div class="settings-container">
+                <div class="settings-section">
+                    <h3>Perfil de Usuario</h3>
+                    <div class="setting-item">
+                        <label class="form-label">Nombre de Usuario</label>
+                        <input type="text" class="form-control" value="Estudiante EduMural">
+                    </div>
+                    <div class="setting-item">
+                        <label class="form-label">Email</label>
+                        <input type="email" class="form-control" value="estudiante@edumural.ai">
+                    </div>
+                </div>
+
+                <div class="settings-section">
+                    <h3>Preferencias de Aprendizaje</h3>
+                    <div class="setting-item">
+                        <label class="setting-label">
+                            <span>Recordatorios automáticos</span>
+                            <div class="toggle-switch">
+                                <input type="checkbox" checked>
+                                <span class="toggle-slider"></span>
+                            </div>
+                        </label>
+                    </div>
+                    <div class="setting-item">
+                        <label class="setting-label">
+                            <span>Modo concentración</span>
+                            <div class="toggle-switch">
+                                <input type="checkbox">
+                                <span class="toggle-slider"></span>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="settings-section">
+                    <h3>Notificaciones</h3>
+                    <div class="setting-item">
+                        <label class="setting-label">
+                            <span>Notificaciones push</span>
+                            <div class="toggle-switch">
+                                <input type="checkbox" checked>
+                                <span class="toggle-slider"></span>
+                            </div>
+                        </label>
+                    </div>
+                    <div class="setting-item">
+                        <label class="setting-label">
+                            <span>Recordatorios de tareas</span>
+                            <div class="toggle-switch">
+                                <input type="checkbox" checked>
+                                <span class="toggle-slider"></span>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="settings-section">
+                    <h3>Tema de Interfaz</h3>
+                    <div class="setting-item">
+                        <label class="form-label">Tema</label>
+                        <select class="form-control">
+                            <option>Claro</option>
+                            <option>Oscuro</option>
+                            <option>Automático</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Neurolingüística Section -->
+        <section id="neurolinguistica" class="content-section">
+            <h2>Neurolingüística y Aprendizaje</h2>
+            <div class="neuro-container">
+                <div class="neuro-intro">
+                    <p>EduMuralAI utiliza técnicas avanzadas de neurolingüística para optimizar tu proceso de aprendizaje, adaptándose a tu estilo personal y maximizando la retención de información.</p>
+                </div>
+
+                <div class="techniques-grid">
+                    <div class="technique-card">
+                        <div class="technique-icon">
+                            <i class="fas fa-project-diagram"></i>
+                        </div>
+                        <h4>Mapas Mentales</h4>
+                        <p>Organización visual de conceptos conectados que facilita la comprensión y memorización de información compleja.</p>
+                        <div class="technique-benefits">
+                            <span class="benefit-tag">Memoria Visual</span>
+                            <span class="benefit-tag">Conexiones</span>
+                        </div>
+                    </div>
+
+                    <div class="technique-card">
+                        <div class="technique-icon">
+                            <i class="fas fa-sync-alt"></i>
+                        </div>
+                        <h4>Repetición Espaciada</h4>
+                        <p>Revisión de contenido en intervalos optimizados basados en la curva de olvido para maximizar la retención a largo plazo.</p>
+                        <div class="technique-benefits">
+                            <span class="benefit-tag">Memoria a Largo Plazo</span>
+                            <span class="benefit-tag">Eficiencia</span>
+                        </div>
+                    </div>
+
+                    <div class="technique-card">
+                        <div class="technique-icon">
+                            <i class="fas fa-eye"></i>
+                        </div>
+                        <h4>Activación Sensorial</h4>
+                        <p>Estimulación de múltiples canales de aprendizaje (visual, auditivo, kinestésico) para crear conexiones neuronales más fuertes.</p>
+                        <div class="technique-benefits">
+                            <span class="benefit-tag">Multimodal</span>
+                            <span class="benefit-tag">Adaptativo</span>
+                        </div>
+                    </div>
+
+                    <div class="technique-card">
+                        <div class="technique-icon">
+                            <i class="fas fa-chart-area"></i>
+                        </div>
+                        <h4>Curvas de Aprendizaje</h4>
+                        <p>Análisis personalizado del ritmo de aprendizaje para ajustar la dificultad y velocidad del contenido de manera óptima.</p>
+                        <div class="technique-benefits">
+                            <span class="benefit-tag">Personalización</span>
+                            <span class="benefit-tag">Progresión</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="neuro-statistics">
+                    <h3>Beneficios Comprobados</h3>
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <span class="stat-value">85%</span>
+                            <span class="stat-desc">Mejora en retención</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-value">60%</span>
+                            <span class="stat-desc">Reducción en tiempo de estudio</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-value">92%</span>
+                            <span class="stat-desc">Satisfacción de usuarios</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2025 EduMuralAI - Todos los derechos reservados</p>
+            <div class="footer-links">
+                <span>Desarrollado por Francois Tromp</span>
+                <a href="mailto:Sasus1810@hotmail.com">Soporte Técnico</a>
+                <a href="https://www.liceofesan.edu.co/" target="_blank">Liceo Fesan</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
